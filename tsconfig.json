@@ -1,0 +1,14 @@
+{
+  "sourceMap": true,
+  "compilerOptions": {
+    "lib": ["es2015", "dom"],
+    "jsx": "react",
+    "baseUrl": "./",
+    "types": ["jest"],
+    "paths": {
+      "#components/*": ["src/components/*"],
+      "#storybook/*": [".storybook/*"]
+    }
+  },
+  "exclude": ["cypress/", "src/**/*.component.tests.tsx"]
+}
